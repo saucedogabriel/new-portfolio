@@ -1,0 +1,56 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50rem;
+    margin-top: 20rem;
+    gap: var(--spacing--40);
+}
+
+.div_section-form{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: var(--spacing--10)
+}
+
+.article_section-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing--40)
+}
+
+.label_section-form{
+
+}
+
+.input_section-form{
+    width: 80rem;
+    height: var(--spacing--24);
+    border-radius: var(--spacing--50);
+    border: none;
+    background: var(--grey-color);
+    padding: var(--spacing--10) var(--spacing--24);
+    outline: none;
+    font-size: var(--font-14);
+}
+
+.p_section-form{ 
+    font-size: var(--font-20);
+}
+
+label {
+    font-size: var(--font-20);
+}
+
+.button_section-form{ 
+    border-radius: var(--spacing--10);
+    border: none;
+    height: var(--spacing--50);
+    background-color: var(--black-color);
+    color: var(--white-color);
+    width: var(--spacing--120);
+    font-weight: bold;
+    font-size: var(--font-14);
+}
