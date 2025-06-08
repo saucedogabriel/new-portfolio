@@ -1,11 +1,12 @@
 :root {
 	/* Typography*/
-	--base-font: "arial", serif;
+	--base-font: "Inter Tight", sans-serif;
 
 	/* Pallette Colors*/
 	--black-color: #222222;
     --white-color: #F8F8F8;
 	--grey-color: #EDEDED;
+	--grey-color2: #bababa;
 
 	/* Font-Size*/
 	--font-60: 6em;
@@ -88,4 +89,13 @@ ul {
 
 section {
     margin: var(--spacing--70) 0 0 0;
+}
+
+button {
+    font-family: var(--base-font);
+	font-weight: 600;
+}
+
+input {
+    font-family: var(--base-font);
 }

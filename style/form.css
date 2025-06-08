@@ -2,8 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 50rem;
-    margin-top: 20rem;
+    margin-top: 15rem;
     gap: var(--spacing--40);
 }
 
@@ -37,20 +36,29 @@
 }
 
 .p_section-form{ 
-    font-size: var(--font-20);
+    font-size: var(--font-24);
+    font-weight: bold;
 }
 
 label {
     font-size: var(--font-20);
 }
 
-.button_section-form{ 
+.button_section-form{
     border-radius: var(--spacing--10);
-    border: none;
+    border: solid 1px var(--black-color);
     height: var(--spacing--50);
+    background-color: var(--white-color);
+    color: var(--black-color);
+    font-size: var(--font-14);
+    cursor: pointer;
+    transition: .3s ease;
+    padding: var(--spacing--10) var(--spacing--20);
+}
+
+.button_section-form:hover {
     background-color: var(--black-color);
     color: var(--white-color);
-    width: var(--spacing--120);
-    font-weight: bold;
-    font-size: var(--font-14);
 }
+
+

@@ -1,0 +1,35 @@
+.stack {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: var(--spacing--60);
+}
+
+.h2_section-stack {
+    font-size: var(--font-20);
+    font-weight: normal;
+}
+
+
+.article_section-stack {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.p_section-stack {
+    font-size: var(--font-18);
+    font-weight: bold;
+    border: solid 1px var(--grey-color2);
+    padding: var(--spacing--12) var(--spacing--30);
+    border-radius: var(--spacing--20);
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.p_section-stack:hover{
+    border: solid 1px var(--black-color);
+}

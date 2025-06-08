@@ -21,7 +21,13 @@ header {
 }
 
 .li_header {
-    
+    font-weight: 600;
+    transition: .3s ease;
+    cursor: pointer;
+}
+
+.li_header:hover {
+    opacity: 60%;
 }
 
 
@@ -50,12 +56,25 @@ header {
     background-color: var(--black-color);
     color: var(--white-color);
     width: var(--spacing--100);
-    font-weight: bold;
+    font-weight: 600;
     font-size: var(--font-8);
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.button_header:nth-child(1):hover {
+    opacity: 70%;
 }
 
 .button_header:nth-child(2){
     color: var(--black-color);
     background-color: var(--white-color);
     border: 1px solid var(--black-color);
+    transition: 0.3s ease;
+}
+
+.button_header:nth-child(2):hover{
+    color: var(--white-color);
+    background-color: var(--black-color);
+    border: 1px solid var(--white-color);
 }

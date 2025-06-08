@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url("./style/formatting.css");
 @import url("./style/header.css");
 @import url("./style/section_mention.css");
 @import url("./style/hero.css");
 @import url("./style/form.css");
 @import url("./style/footer.css");
+@import url("./style/stack.css");
