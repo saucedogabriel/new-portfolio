@@ -14,7 +14,7 @@ This portfolio is a clean, minimalist, and responsive web application built to h
 
 ## 🚀 Live Demo
 
-[🔗 Visit My Portfolio](To be attached...)
+[🔗 Visit My Portfolio](https://saucedogabriel.github.io/new-portfolio/)
 
 ## 🔧 Tech Stack
 
@@ -35,4 +35,5 @@ You can find high-fidelity images and diagrams in the `/images` folder:
 ![Section 1 screenshot](./images/screenshot_2.png)
 ![Section 2 screenshot](./images/screenshot_3.png)
 ![Section 3 screenshot](./images/screenshot_4.png)
+![Footer screenshot](./images/screenshot_5.png)
 
