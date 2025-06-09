@@ -1,0 +1,276 @@
+@media screen and (min-width: 320px) and (max-width : 768px){
+    html {
+        width: 100vw;
+    }
+
+    /* HEADER */
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        height: 100vh;
+        gap: var(--spacing--40);
+        padding: var(--spacing--40) 0 ;
+    }
+
+    .p_header {
+        font-size: var(--font-40);
+        font-weight: bold;
+    }
+
+    .ul_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing-30);
+        font-size: var(--font-30);
+        justify-content: center;
+        padding: 0;
+    }
+
+    .li_header {
+        font-weight: 600;
+        transition: .3s ease;
+        cursor: pointer;
+    }
+
+    .li_header:hover {
+        opacity: 60%;
+    }
+
+
+    .input_header {
+        width: var(--spacing--270);
+        height: var(--spacing--40);
+        border-radius: var(--spacing--50);
+        border: none;
+        background: var(--grey-color);
+        padding: var(--spacing--10) var(--spacing--24);
+        outline: none;
+        font-size: var(--font-20);
+        text-align: center;
+    }
+
+    .div_header{
+        display: flex;
+        flex-direction: column;
+        gap: var(--spacing--10);
+        font-size: var(--font-20);
+    }
+
+    .button_header {
+        border-radius: var(--spacing--10);
+        border: none;
+        height: var(--spacing--50);
+        background-color: var(--black-color);
+        color: var(--white-color);
+        width: var(--spacing--270);
+        font-weight: 600;
+        cursor: pointer;
+        transition: 0.3s ease;
+    }
+
+    .button_header:nth-child(1):hover {
+        opacity: 70%;
+    }
+
+    .button_header:nth-child(2){
+        color: var(--black-color);
+        background-color: var(--white-color);
+        border: 1px solid var(--black-color);
+        transition: 0.3s ease;
+    }
+
+    .button_header:nth-child(2):hover{
+        color: var(--white-color);
+        background-color: var(--black-color);
+        border: 1px solid var(--white-color);
+    }
+
+    /* MENTION SECTION */
+    section {
+        margin: 0;
+    }
+    .mention {
+        height: 100%;
+    }
+
+    .article_section-mention {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .p_main {
+        font-size: var(--font-20);
+    }
+
+    .h2_main {
+        font-size: var(--font-24);
+    }
+
+    .p_main-name {
+        font-size: var(--font-24);
+        font-weight: bold;
+    }
+
+    /* HERO SECTION */
+    .hero{
+        margin: var(--spacing--40) 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+
+    .article_section-hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+        gap: var(--spacing--40);
+        width: 100%;
+        justify-content: center;
+    }
+
+    .h1_section-hero {
+        font-size: var(--font-20);
+        letter-spacing: 0.1rem;
+        display: none;
+    }
+
+    .article_section-hero_name {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing--20);
+    }
+
+    .img_article-hero {
+        height: 30rem;
+        width: auto;
+    }
+
+    .p_section-hero {
+        font-size: var(--font-18);
+        font-weight: bold;
+        max-width: 300px;
+    }
+
+    /* STACK SECTION */
+    .stack {
+        margin: var(--spacing--40) 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: var(--spacing--20);
+    }
+
+    .h2_section-stack {
+        font-size: var(--font-26);
+        font-weight: normal;
+        max-width: 300px;
+        text-align: center;
+    }
+
+
+    .article_section-stack {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        gap: var(--spacing--20);
+    }
+
+    .p_section-stack {
+        font-size: var(--font-20);
+        font-weight: bold;
+        border: solid 1px var(--grey-color2);
+        padding: var(--spacing--12) var(--spacing--30);
+        border-radius: var(--spacing--20);
+        cursor: pointer;
+        transition: 0.2s ease-in;
+        width: 200px;
+        text-align: center;
+    }
+
+    .p_section-stack:hover{
+        border: solid 1px var(--black-color);
+    }
+
+    /* SECTION FORM */
+    .form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing--40);
+        margin: var(--spacing--60) 0 ;
+    }
+
+    .div_section-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing--10);
+        max-width: 150px;
+    }
+
+    .article_section-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: var(--spacing--40);
+        justify-content: center;
+    }
+
+    .input_section-form{
+        width: 70vw;
+        height: var(--spacing--40);
+        border-radius: var(--spacing--50);
+        border: none;
+        background: var(--grey-color);
+        padding: var(--spacing--10) var(--spacing--24);
+        outline: none;
+        font-size: var(--font-20);
+        text-align: center;
+    }
+
+    .p_section-form{
+        font-size: var(--font-30);
+        font-weight: bold;
+    }
+
+    .label_section-form {
+        font-size: var(--font-24);
+    }
+
+    label {
+        font-size: var(--font-26);
+    }
+
+    .button_section-form{
+        border-radius: var(--spacing--10);
+        border: solid 1px var(--black-color);
+        background-color: var(--white-color);
+        color: var(--black-color);
+        font-size: var(--font-20);
+        cursor: pointer;
+        transition: .3s ease;
+        padding: var(--spacing--10) var(--spacing--20);
+        height: var(--spacing--50);
+        width: var(--spacing--270);
+    }
+
+    .button_section-form:hover {
+        background-color: var(--black-color);
+        color: var(--white-color);
+    }
+
+    footer { 
+        display: none;
+    }
+}
